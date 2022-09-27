@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <title>Hidden</title>
+    <style>
+        body {
+            background: white;
+            font-size: 20pt;
+        }
+        .cmd {font-family: monospace; border: black 5px solid; padding: 10px; margin: 50px;}
+        .hidden1 {color: transparent; background: #555;}
+    </style>
+</head>
+<body>
+<h1>Add Something</h1>
+Please run this command on your computer:
+<div class="cmd">
+    echo -- --foo --bar --token=<span class="hidden1">foobarbaz219238719723498235</span> --test --toast
+</div>
+<a href="#" onclick="document.querySelector('.hidden1').style.background='transparent';document.querySelector('.hidden1').style.color='black';">[REVEAL SECRET]</a> |
+<a href="#" onclick="alert('implement me ;)');">[COPY]</a>
+</body>
+</html>
